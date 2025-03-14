@@ -7,6 +7,32 @@ public abstract class Vehicle {
     private double preuBase;
     private String motor;
     private String rodes;
+
+    public String getMatricula() {
+        return Matricula;
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public String getModel() {
+        return Model;
+    }
+
+    public double getPreuBase() {
+        return preuBase;
+    }
+
+    public String getMotor() {
+        return motor;
+    }
+
+    public String getRodes() {
+        return rodes;
+    }
+
+
 }
 
 
