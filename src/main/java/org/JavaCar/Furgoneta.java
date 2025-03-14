@@ -8,4 +8,7 @@ public class Furgoneta extends Vehicle{
         this.capacitatCarga = capacitatCarga;
     }
 
+    public int getCapacitatCarga() {
+        return capacitatCarga;
+    }
 }
