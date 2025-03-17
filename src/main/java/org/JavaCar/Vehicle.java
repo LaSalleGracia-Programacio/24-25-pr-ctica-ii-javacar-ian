@@ -14,8 +14,8 @@ public abstract class Vehicle implements Llogable {
         this.Marca = Marca;
         this.Model = Model;
         this.preuBase = preuBase;
-        this.motor = new Motor();
-        this.rodes = new Roda[];
+        this.motor = motor;
+        this.rodes = rodes;
     }
 
     public String getMatricula() {
@@ -59,7 +59,7 @@ public abstract class Vehicle implements Llogable {
         } else if (this instanceof Furgoneta) {
             Furgoneta furgoneta = (Furgoneta) this;
             if (furgoneta.getCapacitatCarga() > 1000) {
-                double extra = 10* dies;
+                double extra = 10 * dies;
                 return extra;
             }
 
