@@ -11,4 +11,6 @@ public class GestorLloguers {
         return totalIngressos;
     }
 
+    public static double calcularIngressosTotals(java.util.List<Vehicle> vehicles, int dies) {
+    }
 }
